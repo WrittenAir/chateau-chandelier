@@ -1,0 +1,9 @@
+###A list of all the protocols, boards, what-have-yous we've decided we're using
+
+Visualizations Board: Beaglebone Black
+Primary Programming Language: Python
+Secondary Programming Languages: 
+LED driver: Arduino Mega *open to change*
+
+
+*thoughts on having the beaglebone in the air, and connecting with it via bluetooth from a phone or another controller on the ground?*
