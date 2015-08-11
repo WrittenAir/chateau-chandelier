@@ -2,7 +2,7 @@
 
 FASTLED Notes:
 
->> When adding WS2812 LED stip on at least 8 pins on the Arduino Mega the LED colors changes. 
+>> When adding WS2812 LED stip on at least 8 pins on the Arduino Mega the LED colors change. 
   - Steps to recreate: 
     1. In the Arduino IDE setup  add 8 leds
       Example:FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
