@@ -1,1 +1,16 @@
 ###Put links, documents or any other useful resources here
+
+FASTLED Notes:
+
+>> When adding WS2812 LED stip on at least 8 pins on the Arduino Mega the LED colors change. 
+  - Steps to recreate: 
+    1. In the Arduino IDE setup  add 8 leds
+      Example:FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
+    2. In loop fill one LED Strip with Red and show it
+  - Expected Results: Red Color LEDs on the entire WS2812 Strip
+  - Actual Results: Lime Color LEDS on the entire WS2812 Strip
+  - Solution: Use FastLED FastLED3.1 git branch instead. URL to Issue below: 
+    https://github.com/FastLED/FastLED/issues/197
+>> Slow Processing Time when connecting multiple WS2812 LED Strips with multiple pins
+  - URL Link to Issue: https://github.com/FastLED/FastLED/issues/171
+    
