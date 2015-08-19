@@ -90,7 +90,8 @@ void loop()
    /* 
    *  There are three diffeent animations below that can be used seperately
    *  To view each one uncomment thier corresponding lines
-   *  Warning: Due to high number of leds set up the animations may  
+   *  Warning: Due to high number of leds set up the animations will  
+   *  run slowly
    */
   
    //Uncomment next three lines for Confetti animation example on led 2 and 5:
@@ -106,7 +107,7 @@ void loop()
     sinelon(led2);
     FastLED.show(); */
 }
-
+//startUpSequence Update not tested yet
 void startUpSequence(CRGB color, CRGB led[]){
   
    uint8_t startIndex = 0;
